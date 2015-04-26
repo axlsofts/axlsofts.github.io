@@ -1,0 +1,31 @@
+{% include header.html %}
+
+
+<!-- Navigation panel -->
+
+<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                data-target="#navbar-collapse-main">
+                <span class="sr-only">Toggle navigation</span> <span
+                    class="icon-bar"></span> <span class="icon-bar"></span> <span
+                    class="icon-bar"></span>
+            </button>
+            <a class="page-scroll navbar-brand" style="font-size: 24px;" href="{{page.gaming_zone}}"><b>Axl Softs Gaming Zone</b></a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbar-collapse-main">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a class="page-scroll" href="{{page.axlsofts}}">Return to Axl Softs website</a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+
+{{content}}
+
+{% include footer.html %}
