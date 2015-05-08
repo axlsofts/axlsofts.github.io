@@ -107,15 +107,57 @@ resources: ../resources
 <!-- Contact -->
 
 <div id="contact" class="pad-section">
-    <div class="container">
-        <h3>Besoin d'aide, envie de nous faire une suggestion ?</h3>
-        <h4 style="padding-top: 20px;">
-            Contactez-nous à <a href="mailto:support@axlsofts.com"
-                style="color: #666;">support@axlsofts.com</a>
-        </h4>
-    </div>
+	<div class="container">
+		<h3>Besoin d'aide, envie de nous faire une suggestion ?</h3>
+		<h4 style="padding-top: 20px;">
+			Contactez-nous à <a href="mailto:support@axlsofts.com"
+				style="color: #666;">support@axlsofts.com</a>
+		</h4>
+		<br /> <a class="twitter-follow-button"
+			href="https://twitter.com/AxlSoftsFrance" data-show-count="false"
+			data-size="large" data-lang="fr"> Follow
+			@AxlSoftsFrance</a>
+		<script>
+            window.twttr = (function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0], t = window.twttr || {};
+                if (d.getElementById(id))
+                    return;
+                js = d.createElement(s);
+                js.id = id;
+                js.src = "https://platform.twitter.com/widgets.js";
+                fjs.parentNode.insertBefore(js, fjs);
+                t._e = [];
+                t.ready = function(f) {
+                    t._e.push(f);
+                };
+                return t;
+            }(document, "script", "twitter-wjs"));
+        </script>
+		&nbsp;&nbsp;&nbsp; <a
+			class="twitter-share-button" href="https://twitter.com/share"
+			data-size="large" data-count="none"
+			data-url="http://www.axlsofts.com/fr/"> Tweet</a>
+		<script>
+            window.twttr = (function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0], t = window.twttr || {};
+                if (d.getElementById(id))
+                    return t;
+                js = d.createElement(s);
+                js.id = id;
+                js.src = "https://platform.twitter.com/widgets.js";
+                fjs.parentNode.insertBefore(js, fjs);
+                t._e = [];
+                t.ready = function(f) {
+                    t._e.push(f);
+                };
+                return t;
+            }(document, "script", "twitter-wjs"));
+        </script>
+	</div>
 </div>
 
-<div class="container"><small style="color: #666;">Copyright (c) 2014 Axl Softs</small></div>
+<div class="container">
+	<small style="color: #666;">Copyright (c) 2014 Axl Softs</small>
+</div>
 
 {% include footer.html %}
