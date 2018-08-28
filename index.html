@@ -28,7 +28,6 @@ resources: resources
 				<li><a class="page-scroll" href="#applications">APPLICATIONS</a></li>
 				<li><a class="page-scroll" href="#games">GAMES</a></li>
                 <li><a class="page-scroll" href="#contact">CONTACT</a></li>
-				<li><a class="page-scroll" href="fr/">| French</a></li>
 			</ul>
 		</div>
 		<!-- /.navbar-collapse -->
@@ -75,7 +74,6 @@ resources: resources
 
 <div id="applications-content" class="pad-section">
 	<div class="container">
-    {% include applications/password-safe-keeper.html%}<br/>
 	{% include applications/easy-budget.html%}<br/>
 	{% include applications/christmas.html %}<br/>
 	{% include applications/unix-time.html %}
@@ -93,15 +91,6 @@ resources: resources
 
 <div id="games-content" class="pad-section">
 	<div class="container">
-		<div class="jumbotron text-center"
-			style="background-image: url('{{page.resources}}/img/black_opacity_075.png'); background-color: transparent; color: #ffffff; border: 1px solid rgba(255, 255, 255, .7);">
-			<h2 style="color: #ffffff; padding-bottom: 30px;">Play all our
-				games online</h2>
-			<a href="gaming-zone" class="btn btn-danger"><h2>
-					<b>Enter the Gaming Zone!</b>
-				</h2></a>
-		</div>
-		<br/>
 		{% include games/tolum.html %}
 	</div>
 </div>
