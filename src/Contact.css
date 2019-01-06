@@ -1,0 +1,30 @@
+.Contact {
+    padding: 20px 100px;
+    color: #333;
+    margin: 0;
+}
+
+.Contact a {
+    color: #333;
+    text-decoration: none;
+}
+.Contact a:link {
+    color: #333;
+    text-decoration: none;
+}
+.Contact a:visited {
+    color: #333;
+    text-decoration: none;
+}
+.Contact a:hover {
+    color: #666;
+    text-decoration: none;
+}
+.Contact a:active {
+    color: #666;
+    text-decoration: none;
+}
+
+.Contact p {
+    padding: 10px 0;
+}

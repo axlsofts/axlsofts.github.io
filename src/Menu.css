@@ -1,0 +1,25 @@
+.navbar-menu {
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, .7);
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: rgba(0, 0, 0, .8);
+    color: #eee;
+}
+
+.navbar-menu a {
+    color: #eee;
+}
+.navbar-menu a:hover {
+    color: #fff;
+}
+
+.navbar-menu .navbar-brand {
+    font-size: 36px;
+}
+
+.navbar-menu .navbar-right {
+    font-size: 20px;
+}
+.navbar-menu .navbar-right a:hover {
+    color: #333;
+}

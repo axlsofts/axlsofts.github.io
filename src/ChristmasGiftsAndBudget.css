@@ -1,0 +1,20 @@
+.ChristmasGiftsAndBudget {
+    margin-top: 50px;
+}
+
+.ChristmasGiftsAndBudget-Jumbotron {
+    border: 1px solid rgba(255, 255, 255, .7);
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.ChristmasGiftsAndBudget-Row {
+    padding-bottom:30px;
+}
+
+.ChristmasGiftsAndBudget p {
+    font-size: 14px;
+}
+
+.ChristmasGiftsAndBudget-Description {
+    padding-top:50px;
+}

@@ -1,0 +1,20 @@
+.SkyEvents {
+    margin-top: 50px;
+}
+
+.SkyEvents-Jumbotron {
+    border: 1px solid rgba(255, 255, 255, .7);
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.SkyEvents-Row {
+    padding-bottom:30px;
+}
+
+.SkyEvents p {
+    font-size: 14px;
+}
+
+.SkyEvents-Description {
+    padding-top:50px;
+}

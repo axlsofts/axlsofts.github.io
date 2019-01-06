@@ -1,0 +1,25 @@
+.Home {
+    background: url("./res/img/home_background.jpg") no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.Home-VCenter {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.Home-Jumbotron {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.Home-Text {
+    padding: 50px 0 30px;
+}
